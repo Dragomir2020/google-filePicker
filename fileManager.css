@@ -29,12 +29,11 @@ h1 {
 .container h3 {
     display: inline-block;
     position: relative;
-    top: -20px;
+    top: -10px;
     color: white;
     left: 25px;
     letter-spacing: 1px;
-    font-family: Cambia;
-
+    font-family: Cambria;
 }
 .container h3:hover {
     /*color: black;*/
@@ -44,27 +43,29 @@ h1 {
     width: 200px;
     height: 50px;
     margin: auto;
-    background: rgba(0,0,0,0.2);
+    /*background: rgba(0,0,0,0.2);*/
+    background: linear-gradient(90deg, rgba(0,0,0,0.5),rgba(0,0,0,0.1));
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    box-shadow: 0 5px 5px -2px rgba(0,0,0,0.5);
+    box-shadow: 0 4px 5px -2px rgba(0,0,0,0.5);
     border: solid 1px rgba(0,0,0,0.4);
 }
 .container:hover {
-    background: rgba(0,0,0,0.3);
+    background: linear-gradient(90deg, rgba(0,0,0,0.6),rgba(0,0,0,0.2));
     
 }
 
 /* Format Images */
 .container img {
-    width: 50px;
+    width: 40px;
     height: auto;
     display: inline-block;
     position: relative;
     left: 70px;
+    top: 5px;
 }
 
 /* Format Box around Sign in buttons */
